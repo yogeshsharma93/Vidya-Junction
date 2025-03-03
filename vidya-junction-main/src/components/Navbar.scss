@@ -1,0 +1,39 @@
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  align-items: flex-end;
+  .left {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-end;
+  }
+  h3 {
+    margin: 0;
+  }
+  h5 {
+    margin: 0;
+  }
+}
+.fixed {
+  background-color: #2e346d;
+  height: 20px;
+  width: 100%;
+}
+.fixed > p {
+  color: white;
+}
+.menuItems {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+  p {
+    cursor: pointer;
+  }
+}
+a {
+  color: white;
+  text-decoration: none;
+}

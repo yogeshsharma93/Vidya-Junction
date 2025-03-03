@@ -1,0 +1,77 @@
+.emblem {
+  right: 25px;
+}
+.logo {
+  left: 50px;
+}
+.fixed {
+  background-color: #2e346d;
+  height: 20px;
+  width: 100%;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+#photos {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 80px;
+  img {
+    height: 80px;
+  }
+  margin: 2rem 0 4rem;
+}
+
+#abt {
+  padding: 2rem;
+  display: flex;
+  gap: 4rem;
+  justify-content: space-between;
+}
+.diversity {
+  justify-content: center;
+  display: flex;
+  padding: 1rem;
+}
+.fixed > p {
+  color: white;
+}
+.About {
+  background-color: #2e346d;
+  width: 60px;
+  padding: 0.5rem 1rem;
+  position: relative;
+  left: 0px;
+  h3 {
+    margin: 0;
+  }
+}
+.Highlights {
+  background-color: #2e346d;
+  width: 90px;
+  position: relative;
+  padding: 0.5rem 1rem;
+  left: 20px;
+  h3 {
+    margin: 0;
+  }
+}
+.info {
+  max-width: 50rem;
+  line-height: 1.5rem;
+  left: 30px;
+}
+.info2 {
+  left: 150px;
+  ul {
+    li {
+      margin: 0.5rem 0;
+    }
+  }
+}
+
+.disclaimer {
+  padding: 2rem;
+}

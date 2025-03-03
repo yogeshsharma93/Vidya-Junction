@@ -1,0 +1,64 @@
+// ActivityList.scss
+
+.activity-list-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  background-color: #f9f9f9;
+  text-align: center;
+}
+
+.activity-list {
+  list-style: none;
+  padding: 0;
+}
+
+.activity-item {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+  .activity-details {
+    display: flex;
+    padding: 0.5rem;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    text-align: left;
+  }
+
+  .date-time {
+    text-align: right;
+  }
+
+  h3 {
+    margin: 0;
+    font-size: 1.2rem;
+  }
+
+  p {
+    margin: 5px 0;
+  }
+}
+
+/* App.css (or your custom CSS/SCSS file) */
+
+.star-rating {
+  display: flex;
+  justify-content: flex-end;
+  .star-filled {
+    color: gold;
+  }
+
+  .star-empty {
+    color: #ccc;
+  }
+
+  span {
+    cursor: pointer;
+  }
+}

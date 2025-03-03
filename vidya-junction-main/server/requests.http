@@ -1,0 +1,29 @@
+###
+POST http://localhost:3003/addClass
+Content-Type: application/json
+
+{
+    "students":[
+  {"name": "John", "id": 1},
+  {"name": "Alice", "id": 2},
+  {"name": "Bob", "id": 3},
+  {"name": "Eva", "id": 4},
+  {"name": "David", "id": 5},
+  {"name": "Sophia", "id": 6},
+  {"name": "Michael", "id": 7},
+  {"name": "Emma", "id": 8},
+  {"name": "Daniel", "id": 9},
+  {"name": "Olivia", "id": 10},
+  {"name": "Matthew", "id": 11},
+  {"name": "Grace", "id": 12},
+  {"name": "Andrew", "id": 13},
+  {"name": "Ava", "id": 14},
+  {"name": "Christopher", "id": 15},
+  {"name": "Lily", "id": 16},
+  {"name": "Ryan", "id": 17},
+  {"name": "Mia", "id": 18},
+  {"name": "William", "id": 19},
+  {"name": "Sofia", "id": 20}
+],
+    "className":"5A"
+}
